@@ -1,0 +1,68 @@
+h5 {
+  color: red;
+  border: 3px solid blue;
+  margin: 100px 50px 25px 75px;
+}
+
+.bodyColor {
+  background-color: white;
+}
+
+p {
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 75px 25px 50px 100px;
+  text-align: justify;
+  text-indent: 50px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  border: 2px solid pink;
+  background-color: pink;
+  height: 50px;
+  width: 100%;
+}
+
+.sidebar {
+  border: 2px solid grey;
+  background-color: grey;
+  height: 470px;
+  width: 150px;
+  margin: 0px;
+  float: left;
+}
+
+footer {
+  border: 2px solid greenyellow;
+  background-color: greenyellow;
+  height: 50px;
+  width: 100%;
+}
+
+.main-content {
+  border: 2px solid red;
+  background-color: white;
+  height: 470px;
+  width: calc(100% - 160px);
+  margin-left: 160px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main-content .bread {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.main-content .gusto {
+  border: 2px solid black;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
